@@ -1,0 +1,5 @@
+astronaut,handover_ready_day,slowest_signal,deadline_day,margin_days,status
+A1,56,reaction_ms,152,96,READY in time
+A2,59,reaction_ms,152,93,READY in time
+A3,60,mood,152,92,READY in time
+A4,64,resting_hr,152,88,READY in time

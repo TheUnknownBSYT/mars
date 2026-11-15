@@ -1,0 +1,4 @@
+environment,days,typical_daily_median,day_to_day_sd,spread_of_daily_medians,p95_of_daily_medians,max_single_reading,cadence_seconds
+"Mars cruise (Liulin-MO, ExoMars TGO, 2016)",90,15.38,0.195,0.514,16.291,18.67,3600.0
+"Moon trip (Artemis I HERA-HSU1, Orion, 2022)",26,16.608,0.107,0.297,17.264,8012.58,60.0
+"Low Earth orbit (Lidal, ISS Columbus, 2020-23)",1151,3.701,0.146,0.843,5.58,243.08,300.0

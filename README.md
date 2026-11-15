@@ -43,7 +43,14 @@ Live app: https://claude.ai/artifact/HTAnv9Zk9vjH5cxREmEBsB (the owner must shar
 
 ## Run it
 
-**App:** open `app/mission_pulse.html`.
+**App:** clone or download this repository, then open `app/mission_pulse.html` in Chrome or Edge. No installation, extra dataset, server, or API key is needed for the browser demo.
+
+Alternatively, run `python3 -m http.server 8000` from the repository root and visit `http://localhost:8000/app/mission_pulse.html`.
+
+The browser app includes its scripts and audio. Sensor readings are simulated; live wearables require a separate integration. WESAD raw files are optional and only needed to rerun WESAD-specific research. For the Python benchmark, install `research/benchmark/requirements.txt`; for standalone games, follow the instructions below.
+
+GitHub stores the source. For a playable website link, enable GitHub Pages for the repository and use `/app/mission_pulse.html` on that site.
+
 - To see everything at once, turn on **Demo preview** (5 simulated astronauts with planted events).
 - For real use, keep Demo preview off and click **Check-in**. The steps are: Save and continue → answer 3 questions → Game 1 → 2 → 3 → 4 → monitor.
 - **Sync next 7 days** fast-forwards the simulated sensors.

@@ -1,0 +1,4 @@
+acute_recall,acute_delay,drift_recall,drift_delay,false_alarm_days_per_month,blip_alarm_rate,adaptation_alarm_rate,sensor_grey_rate,storm_blue_rate,storm_alarm_rate,config,which
+0.625,1.200952380952381,0.675,36.61666666666667,0.49722222222222223,0.0,0.0,1.0,0.04518321513002364,0.0282136524822695,shrink | shewhart_post thr3.0 3of5 + agree>=4sig@2.5 1of1,STRICT (budget 1 false alarm/astronaut/month)
+0.8375,1.1864285714285714,0.775,31.133333333333333,1.2277777777777779,0.09747474747474746,0.0,1.0,0.125177304964539,0.07743424940898344,shrink | shewhart_post thr3.0 2of3 + agree>=3sig@2.5 1of1,BALANCED (budget 2/month)
+1.0,0.4125,1.0,11.225,14.261111111111111,0.7760101010101009,0.0,1.0,0.32101802600472806,0.1298684988179669,meanstd | shewhart_post thr2.5 1of1,"naive reference (z>2.5 any day, mean/SD, nothing else)"

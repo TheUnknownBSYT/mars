@@ -1,0 +1,8 @@
+acute_recall,acute_delay,drift_recall,drift_delay,false_alarm_days_per_month,blip_alarm_rate,adaptation_alarm_rate,sensor_grey_rate,storm_blue_rate,storm_alarm_rate,config,_idx
+0.725,0.877142857142857,0.9,32.1,1.7361111111111112,0.053181818181818184,0.0,1.0,0.0,0.08401295262708305,"shrink | shewhart_post thr3.0 3of5 + window14 z2.5 x5d post(15, 30) on vision_score/hrv_rmssd/sleep_hours/reaction_ms + agree>=4sig@2.5 1of1",0
+0.9,1.0255952380952382,0.825,29.825,1.6944444444444442,0.17994227994227993,0.0,1.0,0.0,0.1970334059056885,shrink | shewhart_post thr3.0 2of3 + agree>=3sig@2.5 1of1,1
+0.9,0.781547619047619,0.9,27.725,2.5972222222222223,0.1899422799422799,0.0,1.0,0.0,0.20858231894916676,"shrink | shewhart_post thr3.0 2of3 + window14 z2.5 x5d post(15, 30) on vision_score/hrv_rmssd/sleep_hours/reaction_ms + agree>=3sig@2.5 1of1",2
+0.8875,1.0803571428571428,0.825,27.666666666666668,1.6861111111111111,0.13744227994227992,0.0,1.0,0.0,0.2677433209906036,shrink | shewhart_post thr3.0 2of3 + agree>=4sig@2.0 1of1,3
+0.9,0.7875,0.9,27.583333333333336,2.591666666666667,0.14744227994227993,0.0,1.0,0.0,0.27720890070074855,"shrink | shewhart_post thr3.0 2of3 + window14 z2.5 x5d post(15, 30) on vision_score/hrv_rmssd/sleep_hours/reaction_ms + agree>=4sig@2.0 1of1",4
+0.825,1.2327380952380953,0.825,30.55833333333333,1.363888888888889,0.07564935064935065,0.0,1.0,0.0,0.11252405655938265,shrink | shewhart_post thr3.0 2of3 + agree>=4sig@2.5 1of1,5
+0.8375,0.8653571428571428,0.9,28.4,2.286111111111111,0.08564935064935066,0.0,1.0,0.0,0.12407296960286088,"shrink | shewhart_post thr3.0 2of3 + window14 z2.5 x5d post(15, 30) on vision_score/hrv_rmssd/sleep_hours/reaction_ms + agree>=4sig@2.5 1of1",6

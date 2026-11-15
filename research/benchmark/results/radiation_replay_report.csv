@@ -1,0 +1,4 @@
+environment,start,end,readings,danger_hours,danger_days,days_green,days_grey,days_red,days_yellow
+"Mars cruise (Liulin-MO, ExoMars TGO, 2016)",2016-04-22,2016-09-15,2092,0,,90,57.0,,
+"Moon trip (Artemis I HERA-HSU1, Orion, 2022)",2022-11-16,2022-12-11,36588,1,2022-11-16,26,,,
+"Low Earth orbit (Lidal, ISS Columbus, 2020-23)",2020-01-19,2023-04-16,329888,4,"2020-04-29, 2020-08-17, 2023-03-18",988,33.0,110.0,53.0

@@ -1,0 +1,12 @@
+# Local files and Python environments
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Personal game histories created at runtime
+games/orbit_ops/data/
+games/dockmaster/data/
