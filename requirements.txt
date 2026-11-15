@@ -1,0 +1,4 @@
+numpy
+pandas
+matplotlib
+pygame-ce>=2.4
